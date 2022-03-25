@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build
 include basics/CMakeFiles/basics_generate_messages_eus.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/msg/Complex.l
+basics/CMakeFiles/basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/srv/WordCount.l
 basics/CMakeFiles/basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/manifest.l
 
 
@@ -62,12 +63,18 @@ basics/CMakeFiles/basics_generate_messages_eus: /home/matsniklasson/Developer/RO
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from basics/Complex.msg"
 	cd /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg/Complex.msg -Ibasics:/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/msg
 
+/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/srv/WordCount.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/srv/WordCount.l: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from basics/WordCount.srv"
+	cd /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/srv/WordCount.srv -Ibasics:/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/srv
+
 /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for basics"
 	cd /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics basics std_msgs
 
 basics_generate_messages_eus: basics/CMakeFiles/basics_generate_messages_eus
 basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/msg/Complex.l
+basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/srv/WordCount.l
 basics_generate_messages_eus: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/roseus/ros/basics/manifest.l
 basics_generate_messages_eus: basics/CMakeFiles/basics_generate_messages_eus.dir/build.make
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/lib/python3/dist-packages/basics/msg/_Complex.py"
   "/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/lib/python3/dist-packages/basics/msg/__init__.py"
+  "/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/lib/python3/dist-packages/basics/srv/_WordCount.py"
+  "/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/lib/python3/dist-packages/basics/srv/__init__.py"
   "CMakeFiles/basics_generate_messages_py"
 )
 

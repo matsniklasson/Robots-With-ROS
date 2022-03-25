@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build
 include basics/CMakeFiles/basics_generate_messages_lisp.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_lisp: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+basics/CMakeFiles/basics_generate_messages_lisp: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 
 
 /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
@@ -61,8 +62,14 @@ basics/CMakeFiles/basics_generate_messages_lisp: /home/matsniklasson/Developer/R
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from basics/Complex.msg"
 	cd /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg/Complex.msg -Ibasics:/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/msg
 
+/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from basics/WordCount.srv"
+	cd /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/srv/WordCount.srv -Ibasics:/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/srv
+
 basics_generate_messages_lisp: basics/CMakeFiles/basics_generate_messages_lisp
 basics_generate_messages_lisp: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+basics_generate_messages_lisp: /home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 basics_generate_messages_lisp: basics/CMakeFiles/basics_generate_messages_lisp.dir/build.make
 
 .PHONY : basics_generate_messages_lisp
