@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/build'
