@@ -1,2 +1,2 @@
-basics
+basics:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations:wanderbot
 -DCATKIN_DEVEL_PREFIX=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/devel -DCMAKE_INSTALL_PREFIX=/home/matsniklasson/Developer/ROS/robots_with_ROS_ws/install -G Unix Makefiles
