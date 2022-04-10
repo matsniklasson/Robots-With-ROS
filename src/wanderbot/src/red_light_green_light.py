@@ -3,7 +3,7 @@
 import rospy
 from geometry_msgs.msg import Twist
 
-cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=1)
+cmd_vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
 rospy.init_node('red_light_green_light')
 
 red_light_twist = Twist()
